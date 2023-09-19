@@ -1,0 +1,161 @@
+*, *::before, *::after {
+
+    box-sizing: border-box;
+
+}
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+:root {
+
+    --main-color-:#048B8A;
+    --secondary-color-:#E1755E;
+
+}
+/* 
+#bloc-page {
+
+    max-width: 1400px;
+    margin: 0 auto;
+} */
+
+.header-content {
+
+    height: 100vh;
+    background-color: var(--main-color-);
+    position: relative;
+
+}
+
+.home-header {
+
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    /* clip-path: inset(0% round 0 0 30% 0); */
+    /* clip-path: polygon(0% 0, 0 50%, 100% 100%); */
+    /* clip-path: ellipse(50% 50% at 50% 50%); */
+    /* padding: 5px; */
+
+}
+
+.filtre {
+
+    height: 100%;
+    width:100%;
+    background-color:#4040409f;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.nav-bar-content {
+
+    position: absolute;
+    z-index: 5;
+    top: 70px;
+    color: #FFFFFF;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+
+}
+
+.nav-bar {
+
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    list-style: none;
+    font-size: 1.4rem;
+
+}
+
+.nav-bar li {
+
+    cursor: pointer;
+
+}
+
+/* .nav-bar li:hover {
+
+    
+    background-color: var(--main-color-); 
+    border: 1px solid var(--main-color-);
+    color:#FFFFFF;
+    transition: 400ms ease-in-out;
+
+
+} */
+
+.logo-text {
+
+    font-size: 30px;
+    padding-top: 17px;
+
+}
+
+.logo {
+
+    height: 80px;
+    width: 100px;
+    object-fit: cover;
+
+}
+
+.home-title {
+
+    color: #FFFFFF;
+    position: absolute;
+    z-index: 5;
+    bottom:45%;
+    font-weight: bold;
+    font-size: 2.7rem;
+    left: 200px;
+    width: 700px;
+
+}
+
+.btn-contact {
+
+    position: absolute;
+    left: 200px;
+    bottom: 27%;
+    padding: 15px;
+    background-color: var(--main-color-);
+    border: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    z-index: 5;
+    cursor: pointer;
+    transition: 400ms ease-in-out;
+
+}
+
+.body-content {
+
+
+    margin-top: 50px;
+
+
+}
+
+/* .btn-contact:hover {
+
+     background-color: #FFFFFF; 
+    border: 1px solid var(--main-color-);
+    color:var(--main-color-);
+    transition: 400ms ease-in-out; 
+    transform: scale(1.1);
+
+
+} */

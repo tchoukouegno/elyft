@@ -5,8 +5,8 @@
 
  */
 
-   import {Routes,Route} from 'react-router-dom';
-   import { Header } from '../widgets/Header';
+import {Routes,Route} from 'react-router-dom';
+import { Home } from '../views/Home';
 
 
 
@@ -25,7 +25,7 @@
         
         <Routes>
 
-            <Route index element={<Header/>}/>
+            <Route index element={<Home/>}/>
 
 
 
