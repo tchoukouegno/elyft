@@ -7,6 +7,10 @@
 
 import {Routes,Route} from 'react-router-dom';
 import { Home } from '../views/Home';
+import { Services } from '../views/Services';
+import { Techno } from '../views/Techno';
+import { Propos } from '../views/Propos';
+import { Blog } from '../views/Blog';
 
 
 
@@ -26,6 +30,16 @@ import { Home } from '../views/Home';
         <Routes>
 
             <Route index element={<Home/>}/>
+
+            <Route path='/home' element={<Home/>}/>
+
+            <Route path='/services' element={<Services/>}/>
+
+            <Route path='/technologie' element={<Techno/>}/>
+
+            <Route path='/apropos' element={<Propos/>}/>
+
+            <Route path='/blog' element={<Blog/>}/>
 
 
 
