@@ -11,6 +11,7 @@ import { Services } from '../views/Services';
 import { Techno } from '../views/Techno';
 import { Propos } from '../views/Propos';
 import { Blog } from '../views/Blog';
+import { ServiceDetail } from '../widgets/ServiceDetail';
 
 
 
@@ -33,7 +34,12 @@ import { Blog } from '../views/Blog';
 
             <Route path='/home' element={<Home/>}/>
 
-            <Route path='/services' element={<Services/>}/>
+            <Route path='/services' element={<Services/>}>
+
+                <Route path='/services/detail' element={<ServiceDetail/>}/>
+
+
+            </Route>
 
             <Route path='/technologie' element={<Techno/>}/>
 
@@ -41,6 +47,7 @@ import { Blog } from '../views/Blog';
 
             <Route path='/blog' element={<Blog/>}/>
 
+           
 
 
         </Routes>

@@ -9,7 +9,7 @@ import usersSolid from "../assets/icons/usersSolid.svg";
 import trophySolid from "../assets/icons/trophySolid.svg"
 import { Contact } from "../widgets/Contact";
 import {useNavigate} from "react-router-dom";
-import homeHeader from "../assets/img/homeHeader.jpeg"
+import homeHeader from "../assets/img/homeHeader.jpeg";
 
 
 
